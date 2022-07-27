@@ -21,28 +21,34 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 div{
     margin: 1rem;
+    color: #01539d;
 }
 
 select{
+    width: 80%;
     background-color: #fff;
     text-align: center;
-    padding: .3rem;
-    margin: 1rem;
+    padding: .2rem;
+    margin: .6rem;
 }
 option{
     padding: .3rem;
 }
 #userText{
-    width: 90%;
-    margin: 1rem;
+    width: 100%;
+    margin: 1.4rem;
     padding: .6rem;
 }
 #outText{
-    width:90%;
+    width: 100%;
     padding: .6rem;
-    margin: 1rem;
+    margin: 1.4rem;
     pointer-events: none;
 }
