@@ -28,9 +28,11 @@ main {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 1rem;
 }
 
 div {
+    text-align: center;
     font-size: 1.2rem;
     margin: 1rem;
     color: #01539d;
