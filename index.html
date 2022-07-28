@@ -14,7 +14,7 @@
         <h1>Currency Convertor</h1>
     </div>
     <main> 
-        <select id="allQuote">
+        <select id="allQuote"  onchange="checkMoney()">
             <option value="USD">US Dollar (USD)</option>
             <option value="INR">Indian Rupee (INR)</option>
             <option value="SGD">Singapore Dollar (SGD)</option>
@@ -36,9 +36,9 @@
             <option value="VND">Vietnamese dong (VND)</option>
         </select>
         <input type="number" id="userText" onkeyup="checkMoney()" placeholder="Enter Amount">
-        <select id="allQuotes">
-            <option value="USD">US Dollar (USD)</option>
+        <select id="allQuotes" onchange="checkMoney()">
             <option value="INR">Indian Rupee (INR)</option>
+            <option value="USD">US Dollar (USD)</option>
             <option value="SGD">Singapore Dollar (SGD)</option>
             <option value="MYR">Malaysian Ringgit (MYR)</option>
             <option value="EUR">Euro (EUR)</option>

@@ -47,3 +47,6 @@ const getAmount = (govtAmount) => {
 const convertAmount = (govtAmount, userAmount)=>{
 	outText.value = govtAmount * userAmount
 }
+const myfun = ()=>{
+	console.log("Changed")
+}
